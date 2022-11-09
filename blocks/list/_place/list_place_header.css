@@ -1,0 +1,4 @@
+.list_place_header {
+  display: flex;
+  flex-direction: row;
+}

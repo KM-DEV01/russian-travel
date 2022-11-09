@@ -1,37 +1,155 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
-</head>
-<body>
-    <div class="page">
-        <header class="header">    
-            <img class="header__logo" src="./images/header-logo.svg" alt="логотип в виде карты России.">
-            <ul class="list">
-                <li class="header__lang-links">
-                    <a href="#" class="header__lang-link link link_active" target="_blank" rel="noopener noreferrer">Ru</a>
-                </li>
-                <li class="header__lang-links">
-                    <a href="#" class="header__lang-link link" target="_blank" rel="noopener noreferrer">En</a>
-                </li>
-            </ul>
-        </header>  
-        <main class="content">
-            <section class="lead">
-                <h1 class="lead__title">Путешествия по России</h1>
-                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="lead__image" src="./images/lead-polka.png" alt="Девушка спит в вагоне поезда, за окном проезжает товарняк.">
-                <p class="lead__caption">ваша полка — верхняя</p>
-            </section>
-            <section class="intro">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
-                <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-            </section>
-        </main>
+  </head>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img class="header__logo" src="./images/header-logo.svg" alt="логотип в виде карты России." />
+        <ul class="list list_place_header">
+          <li class="header__lang-links list__item">
+            <a class="header__lang-link link link_active" href="#" target="_blank" rel="noopener noreferrer">Ru</a>
+          </li>
+          <li class="header__lang-links list__item">
+            <a class="header__lang-link link" href="#" target="_blank" rel="noopener noreferrer">En</a>
+          </li>
+        </ul>
+      </header>
+      <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="Девушка спит в вагоне поезда, за окном проезжает товарняк." />
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </section>
+        <section class="intro">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
+            вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
+            Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали
+            некоторые интересные места, достойные вашего отпуска.
+          </p>
+          <ui class="list list_place_content">
+            <li class="intro__list-text intro__list-text_weight_700 list__item">Часовых поясов <span class="intro__list-text_weight_400">11</span></li>
+            <li class="intro__list-text intro__list-text_weight_700 list__item">
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__list-text_weight_400">12</span>
+            </li>
+            <li class="intro__list-text intro__list-text_weight_700 list__item">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__list-text_weight_400">16</span>
+            </li>
+            <li class="intro__list-text intro__list-text_weight_700 list__item">
+              Природных заповедников
+              <span class="intro__list-text_weight_400">105</span>
+            </li>
+            <li class="intro__list-text intro__list-text_weight_700 list__item">Аэропортов <span class="intro__list-text_weight_400">241</span></li>
+          </ui>
+        </section>
+        <section class="photo-grid">
+          <img class="photo-grid__item" src="./images/phot-grid-train.png" alt="Вид на море из окна поезда." />
+          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.png" alt="Покрытые снегом горы окружены облаками." />
+          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="В поле покрытом туманом, стоит стог сена, а на нем собака." />
+          <img class="photo-grid__item" src="./images/photo-grid-sochi.png" alt="Еловый лес покрыт густым туманом." />
+          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Крупный кадр автомобильного колеса на фоне чистого голубого льда." />
+          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Песчаный пляж, на заднем фоне виднеются горы." />
+          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Коменисто-снежная гора Эльбрус." />
+          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.png" alt="Знак пешеходного перехода на фоне бетонных волнорезов." />
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы камчатки укутанные густым туманом." />
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Равнина с незначительной растительностью на фоне высоких гор Камчатки." />
+          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Высокая скала на фоне заснеженного плато." />
+          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Спуск с вершины горы окруженный густым облаком." />
+        </section>
+        <section class="places">
+          <ul class="place list">
+            <li class="place__container list__item">
+              <h3 class="place__title">Куршская коса</h3>
+              <img class="place__image" src="./images/place-kosa.jpg" alt="Корни мертвых деревьев торчащие из воды." />
+            </li>
+            <li class="place__container list__item">
+              <div class="place__website">
+                <p class="place__website__url-heading">URL</p>
+                <a class="place__website__link link link_active" href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">park-kosa.ru</a>
+              </div>
+              <p class="place__paragraph">
+                Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
+                природная зона на краю российского анклава.
+              </p>
+              <p class="place__paragraph">
+                На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи
+                небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
+              </p>
+            </li>
+          </ul>
+          
+          <ul class="place list">
+            <li class="place__container list__item">
+              <h3 class="place__title">Кольский</h3>
+              <img class="place__image" src="./images/place-kolsky.jpg" alt="" />
+            </li>
+            <li class="place__container list__item">
+              <div class="place__website">
+                <p class="place__website__url-heading">URL</p>
+                <a class="place__website__link link link_active" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener noreferrer">National Geographic</a>
+              </div>
+              <p class="place__paragraph">
+                Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
+                тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
+              </p>
+              <p class="place__paragraph">
+                Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
+                в Мурманск.
+              </p>
+            </li>
+          </ul>
+
+          <ul class="place list">
+            <li class="place__container list__item">
+              <h3 class="place__title"></h3>
+              <img class="place__image" src="" alt="" />
+            </li>
+            <li class="place__container list__item">
+              <div class="place__website">
+                <p class="place__website__url-heading">URL</p>
+                <a class="place__website__link link link_active" href="#" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+              <p class="place__paragraph">
+
+              </p>
+              <p class="place__paragraph">
+
+              </p>
+            </li>
+          </ul>
+          
+          <ul class="place list">
+            <li class="place__container list__item">
+              <h3 class="place__title"></h3>
+              <img class="place__image" src="" alt="" />
+            </li>
+            <li class="place__container list__item">
+              <div class="place__website">
+                <p class="place__website__url-heading">URL</p>
+                <a class="place__website__link link link_active" href="#" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+              <p class="place__paragraph">
+
+              </p>
+              <p class="place__paragraph">
+
+              </p>
+            </li>
+          </ul>
+
+
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
