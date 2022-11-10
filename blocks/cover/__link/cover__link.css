@@ -1,0 +1,20 @@
+.cover__link {
+  background: url("../../../images/cover-trains.jpg");
+  background-size: contain;
+  box-sizing: border-box;
+  width: 1184px;
+  height: 740px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: 80%;
+}
