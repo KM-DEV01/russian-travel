@@ -1,0 +1,11 @@
+.place {
+  max-height: 660px;
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
