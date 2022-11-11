@@ -10,6 +10,21 @@
   .lead__image {
     max-width: 928px;
     max-height: 580px;
-    margin: 56px auto 0 auto;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead__image {
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+    max-height: 200px;
+    margin-top: 40px;
   }
 }
