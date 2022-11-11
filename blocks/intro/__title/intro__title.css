@@ -5,3 +5,17 @@
   font-size: 3.38em;
   line-height: 1.07em;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .intro__title {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

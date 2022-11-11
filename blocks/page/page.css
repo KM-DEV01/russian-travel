@@ -6,6 +6,7 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    font-kerning: auto;
     background-color: #2A2C2F;
     color: #FFFFFF;
 }

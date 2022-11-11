@@ -1,20 +1,6 @@
 .photo-grid__item {
-  /*max-width: 100%;*/
-  /*max-height: 100%;*/
-
+  width: 100%;
+  height: auto;
   object-fit: contain;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 1024px) {
-  .photo-grid__item {
-
-
-
-    width: 300px;
-    height: 225px;
-
-
-
-  }
 }
