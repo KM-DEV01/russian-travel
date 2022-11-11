@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 52px;
     margin: 0 48px;
     padding-top: 28px;
 }
