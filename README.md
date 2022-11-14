@@ -7,7 +7,7 @@
 **Описанеие**
 
 * Проект посвящен путешествиям по России.
-* [Демо](https://km-forprojects.github.io/russian-travel-project/index.html)
+* [Демо](https://km-forprojects.github.io/russian-travel/)
 
 **Технологии**
 
