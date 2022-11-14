@@ -2,20 +2,23 @@
   font-weight: 400;
   font-size: 1em;
   line-height: 1.125;
-  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 18px;
 }
 
-.footer__link:first-of-type {
-  margin-left: 0;
+@media screen and (max-width: 560px) {
+  .footer__link {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    display: block;
     margin: 0;
     font-size: 24px;
     line-height: 24px;
   }
+
   .footer__link:not(:first-of-type) {
     margin-top: 32px;
   }
