@@ -12,6 +12,10 @@
 @import url(../blocks/list/__item/_inline/list__item_inline.css);
 
 @import url(../blocks/text-wrap/text-wrap.css);
+@import url(../blocks/text-wrap/_width/text-wrap_width_320.css);
+@import url(../blocks/text-wrap/_width/text-wrap_width_768.css);
+@import url(../blocks/text-wrap/_width/text-wrap_width_1024.css);
+@import url(../blocks/text-wrap/_width/text-wrap_width_1280.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
