@@ -1,7 +1,7 @@
 .footer__links {
 	font-weight: 400;
-	font-size: 1em;
-	line-height: 1.125;
+	font-size: 16px;
+	line-height: 18px;
 	column-gap: 18px;
 	display: flex;
 	flex-direction: row;

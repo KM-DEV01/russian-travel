@@ -1,8 +1,7 @@
 .footer {
-  padding: 92px 0 24px 0;
   display: flex;
   max-width: 1184px;
-  margin: 0 auto;
+  margin: 92px auto 24px auto;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 48px;
@@ -10,14 +9,13 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin: 0 48px;
+    margin: 92px 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding-top: 88px;
-    margin: 0 24px;
+    margin: 88px 24px 24px 24px;
   }
 }
 
@@ -30,7 +28,6 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    margin: 0 18px;
-    padding-top: 64px;
+    margin: 64px 18px 24px 18px;
   }
 }
