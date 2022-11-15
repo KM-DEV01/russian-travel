@@ -5,6 +5,7 @@
   margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,8 +31,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     margin: 0 18px;
-    max-width: 288px;
-    row-gap: 48px;
     padding-top: 64px;
   }
 }
