@@ -1,14 +1,13 @@
-.header__lang-links {
+.header__list {
 	display: flex;
 	flex-direction: row;
 	column-gap: 18px;
-	height: 32px;
 	margin: 0;
 	padding: 0;
 }
 
 @media screen and (max-width: 320px) {
-	.header__lang-links {
+	.header__list {
 		align-items: flex-end;
 	}
 }
