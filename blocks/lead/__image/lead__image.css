@@ -1,7 +1,7 @@
 .lead__image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	box-sizing: border-box;
 }
 
